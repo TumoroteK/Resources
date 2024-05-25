@@ -22,7 +22,7 @@ Download:
 Move the JARs to a folder in your OS (pay special attention that none of the folders in the path has spaces in the folder name). In the project's folder, run the following commands:
 
 ```shell
-mvn install:install-file -Dfile=path/to/your/ojdbc6-11.2.0.4.jar -DgroupId=com.oracle.database.jdbc -DartifactId=ojdbc6 -Dversion=11.2.0.4 -Dpackaging=jar
+mvn install:install-file -Dfile=path/to/your/ojdbc6-11.2.0.4.jar -DgroupId=oracle -DartifactId=ojdbc6 -Dversion=11.2.0.4 -Dpackaging=jar
 mvn install:install-file -Dfile=path/to/your/xws-security-1.3.1.jar -DgroupId=com.sun.xml.wsit -DartifactId=xws-security -Dversion=1.3.1 -Dpackaging=jar   
 mvn install:install-file -Dfile=path/to/your/wsit-rt-1.1.jar -DgroupId=com.sun.xml.wsit -DartifactId=wsit-rt -Dversion=1.1 -Dpackaging=jar 
 ```
