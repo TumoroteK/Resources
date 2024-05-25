@@ -30,6 +30,11 @@ mvn install:install-file -Dfile=path/to/your/wsit-rt-1.1.jar -DgroupId=com.sun.x
 # ZK Dependencies
 Here, the process is different. You should copy the folders inside the `zk.zip` to the `.../.m2/repository/org/zkoss` directory.
 
+# Force Update Maven Dependencies and Clean Install Project
+run
+`mvn clean install -U
+`
+
 # Git Action
 When using the following YAML configuration:
 
