@@ -27,6 +27,11 @@ mvn install:install-file -Dfile=path/to/your/xws-security-1.3.1.jar -DgroupId=co
 mvn install:install-file -Dfile=path/to/your/wsit-rt-1.1.jar -DgroupId=com.sun.xml.wsit -DartifactId=wsit-rt -Dversion=1.1 -Dpackaging=jar 
 ```
 
+## Verifing 
+Navigate to the follwing folders and verify that the jar was correctly installed. Expect a *.jar file around 2MB in size
+...\.m2\repository\com\sun\xml\wsit\xws-security\1.3.1
+...\.m2\repository\com\sun\xml\wsit\wsit-rt\1.1
+...\.m2\repository\oracle\ojdbc6\11.2.0.4
 # ZK Dependencies
 Here, the process is different. You should copy the folders inside the `zk.zip` to the `.../.m2/repository/org/zkoss` directory.
 
