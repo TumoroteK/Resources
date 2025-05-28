@@ -33,8 +33,10 @@ Navigate to the follwing folders and verify that the jar was correctly installed
 ...\.m2\repository\com\sun\xml\wsit\wsit-rt\1.1
 ...\.m2\repository\oracle\ojdbc6\11.2.0.4
 # ZK Dependencies
-Here, the process is different. You should copy the folders inside the `zk.zip` to the `.../.m2/repository/org/zkoss` directory.
-
+Here, the process is different. 
+1. You should copy the folders inside the `zk.zip` to the `.../.m2/repository/org/zkoss` directory.
+Do it first. If it doesn't work and you still missing dependencies...
+1. Unpack zkoss.zip into `.../.m2/repository/org`
 # Force Update Maven Dependencies and Clean Install Project
 run
 `mvn clean install -U
